@@ -8,12 +8,23 @@
     --cinza-claro-fundo: #F7F7F7;
     --branco: #FFFFFF;
 
+    --fonte-cor-branco: #FFFFFF;
+    --fonte-cor-azul: #3772FF;
+
     --fonte-peso-leve: 400;
     --fonte-peso-medio: 500;
     --fonte-peso-pesado: 600;
 
-    --fonte-tamanho-titulo: 22px;  
+    --fonte-tamanho-padrao: 16px;
+    --fonte-tamanho-titulo-padrao: 26px;
 
     --fonte-familia-padrao: 'Poppins', sans-serif;
-    --fonte-familia-variacao: 'IBM Plex Sans', sans-serif;       
+    --fonte-familia-variacao: 'IBM Plex Sans', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        --fonte-tamanho-padrao: 18px;
+        --fonte-tamanho-titulo-padrao: 28px;
+    }
 }
