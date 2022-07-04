@@ -1,3 +1,16 @@
+.botao {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--coral);
+    width: 148px;
+    height: 40px;
+    border-radius: 5px;
+    color: var(--branco);
+    font-weight: var(--fonte-peso-pesado);
+    margin-top: 24px;
+}
+
 .botao-variacao {
     display: block;
     margin-left: auto;
@@ -11,9 +24,14 @@
     margin-top: 24px;
 }
 
+
 @media screen and (min-width: 768px) {
     .botao-variacao {
         width: 344px;
         height: 48px;
+    }
+    .botao {
+        width: 164px;
+        margin-top: 40px;
     }
 }
