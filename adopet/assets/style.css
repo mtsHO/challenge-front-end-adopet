@@ -1,0 +1,7 @@
+body {
+    font-family: var(--fonte-familia-padrao);
+}
+
+h1 {
+    color: var(--azul);
+}
