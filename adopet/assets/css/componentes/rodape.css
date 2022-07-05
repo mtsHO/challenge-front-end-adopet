@@ -1,5 +1,4 @@
 .rodape{
-    margin-top: 330px;
     background-color: var(--verde);
     width: 110vw;
     height: 104px;
@@ -12,25 +11,4 @@
     font-weight: var(--fonte-peso-leve);
     color: var(--branco);
     text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-
-    .rodape{
-        margin-top: 340px;
-   
-    }
-    .rodape-texto{
-        font-size: 16px;
-    }
-
-}
-
-@media screen and (min-width: 768px) {
-
-    .rodape{
-        margin-top: 442px;
-   
-    }
-
 }

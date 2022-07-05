@@ -1,0 +1,36 @@
+.perfil-titulo {
+    text-align: center;
+    font-size: 21px;
+    font-weight: var(--fonte-pelo-pesado);
+    color: var(--cinza);
+    margin-bottom: 30px;
+}
+
+#perfil-foto {
+    display: none;
+}
+
+.perfil-foto {
+    display: flex;
+    gap: 45px;
+}
+
+.form-editar-foto {
+    font-size: 12px;
+    font-weight: var(--fonte-peso-leve);
+    color: red;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .perfil-foto {
+        gap: 110px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+   .container {
+        margin-top: 20px;
+   }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil | Adopet</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/_reset.css">
+    <link rel="stylesheet" href="assets/css/_variaveis.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/mensagem.css">
+    <link rel="stylesheet" href="assets/css/perfil.css">
+    <link rel="stylesheet" href="assets/css/componentes/chamada-principal.css">
+    <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/componentes/botoes.css">
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css">
+</head>
+
+<header>
+    <ul class="cabecalho">
+
+        <img class="cabecalho-logo" src="assets/img/logo.png" alt="Logo"></nav>
+
+        <li class="cabecalho-item">
+            <nav><img src="assets/img/icone-casa.png" alt="Home"></nav>
+        </li>
+        <li class="cabecalho-item">
+            <nav><img src="assets/img/icone-mensagem.png" alt="Mensagem"></nav>
+        </li>
+        <li class="cabecalho-item cabecalho-usuario">
+            <nav><img src="assets/img/Usuário.png" alt="Usuario"></nav>
+        </li>
+    </ul>
+
+</header>
+
+<body class="corpo ">
+    <section class="chamada-principal">
+        <p class="chamada-principal--texto">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+
+    </section>
+
+    <section class="container">
+        <div class="form-mensagem">
+            <form action="">
+                <h2 class="perfil-titulo">Perfil</h2>                
+                <label class="form-mensagem-label perfil-foto" for="perfil-foto">Foto
+                    <img src="assets/img/Imagem - sirius.png" alt=""></label>
+                    <p class="form-editar-foto">Clique na foto para editar</p>
+                <input class="form-mensagem-input" id="perfil-foto" type="file" name="perfil-foto">
+                <label class="form-mensagem-label" for="mensagem-nome">Nome</label>
+                <input class="form-mensagem-input" id="mensagem-nome" type="text" name="mensagem-nome" placeholder="Mateus Henrique de Oliveira">
+                <label class="form-mensagem-label" for="mensagem-telefone">Telefone</label>
+                <input class="form-mensagem-input" id="mensagem-telefone" type="tel" name="mensagem-telefone" placeholder="55 48 XXXXX XXXX">
+                <label class="form-mensagem-label" for="mensagem-cidade">Cidade</label>
+                <input class="form-mensagem-input" id="-mensagem-cidade" type="text" name="mensagem-cidade" placeholder="Florianopolis">
+                <label class="form-mensagem-label" for="mensagem-sobre">Sobre</label>
+                <textarea class="form-mensagem-input mensagem" id="mensagem-mensagem" type="text" name="mensagem-sobre" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."></textarea>
+
+                <button class="botao">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+<footer class="rodape">
+    <p class="rodape-texto">2022 - Desenvolvido por Mateus Oliveira.</p>
+</footer>
+
+</html>
