@@ -22,7 +22,7 @@
     --fonte-familia-variacao: 'IBM Plex Sans', sans-serif;
 }
 
-html{
+html,body {
     overflow-x: hidden;
 }
 

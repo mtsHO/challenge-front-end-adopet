@@ -1,21 +1,97 @@
 body {
     font-family: var(--fonte-familia-padrao);
-    background: url("../img/Forma\ 1.png")no-repeat, url("../img/Forma\ 2.png") 110% 199px no-repeat, url("../img/Ilustração\ 1.png") 33.66% 518px no-repeat;
-    background-color: var(--azul);
+    background: url("../img/Forma\ 1.png")no-repeat;
+    background-color: var(--branco);
+}
+
+.cabecalho-usuario {
+    margin-left: 125px;
+}
+
+p.chamapa-principal--texto-home {
+    color: var(--azul);
+    font-weight: var(--fonte-peso-leve);
+    font-size: var(--fonte-tamanho-padrao);
+    margin-left: 67px;
+    margin-right: 67px;
+    line-height: 24px;
+}
+
+.cartao-adocao {
+    display: flex;
+    margin-top: 16px;
+    padding: 24px;
+    background-color: var(--cinza-claro-fundo);
+}
+
+.cartao-adocao--conteudo {
+    margin-left: 18px;
+}
+
+h3.carta-adocao--titulo {
+    font-size: var(--fonte-tamanho-padrao);
+    font-weight: var(--fonte-peso-pesado);
+    color: var(--azul);
+}
+
+.cartao-adocao--texto {
+    font-size: 14px;
+    font-weight: var(--fonte-peso-leve);
+    color: var(--cinza);
+    margin-top: 8px;
+    line-height: 20px;
+}
+
+.cartao-adocao--cidade {
+    font-size: 14px;
+    font-weight: var(--fonte-peso-leve);
+    color: var(--cinza);
+    margin-top: 30px;
+}
+
+button.cartao-adocao-saber-mais {
+    font-size: 10px;
+    font-weight: var(--fonte-peso-leve);
+    color: var(--cinza);
+    margin-top: 8px;
+
 }
 
 @media screen and (min-width: 768px) {
 
     body {
-        background: url("../img/Forma\ 1-tablet.png") no-repeat, url("../img/Forma\ 2-tablet.png")100% 199px no-repeat, url("../img/Ilustração\ 1.png") 230px 650px no-repeat;
-        background-color: var(--azul);
+        background: url("../img/Forma\ 1-tablet.png")no-repeat;
+        background-color: var(--branco);
+    }
+
+    .adocao {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 34px;
+        grid-gap: 10px;
+    }
+
+    .cabecalho-usuario {
+        margin-left: 320px;
     }
 }
 
 @media screen and (min-width: 1024px) {
 
     body {
-        background: url("../img/Forma\ 1-tablet.png") -30px -50px no-repeat, url("../img/Forma\ 2-tablet.png")100% 199px no-repeat, url("../img/Ilustração\ 1.png") 630px 615px no-repeat;
-        background-color: var(--azul);
+        background: url("../img/Forma\ 1-tablet.png")no-repeat, url("../img/Forma\ 2-tablet.png")100% 199px no-repeat;
+        background-color: var(--branco);
+    }
+
+    .adocao {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        margin-left: 12%;
+        margin-right: 12%;
+        grid-gap: 10px;
+    }
+
+    .cabecalho-usuario {
+        margin-left: 950px;
     }
 }
