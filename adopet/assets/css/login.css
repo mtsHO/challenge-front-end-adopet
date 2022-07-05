@@ -1,0 +1,11 @@
+.cadastro-label {
+    margin-top: 42px;
+}
+
+.esqueci-senha {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: var(--fonte-peso-leve);
+    color: red;
+    text-decoration: underline; 
+}
