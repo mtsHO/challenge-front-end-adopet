@@ -1,10 +1,10 @@
 body {
     font-family: var(--fonte-familia-padrao);
-    background: url("../img/Patas.png") 100% 0px no-repeat, url("../img/Forma\ 1.png")no-repeat, url("../img/Forma-cadastro.png") 0px 368px no-repeat ;
+    background: url("../img/Patas.png") 100% 0px no-repeat, url("../img/Forma\ 1.png")no-repeat, url("../img/Forma-cadastro.png") 0px 368px no-repeat;
     background-color: var(--branco);
 }
 
-.chamada-principal--texto{
+.chamada-principal--texto {
     color: var(--azul);
     margin-top: 30px;
     margin-left: 42px;
@@ -12,7 +12,7 @@ body {
     font-weight: var(--fonte-peso-medio);
 }
 
-.cadastro{
+.cadastro {
     text-align: center;
     margin-top: 24px;
 }
@@ -39,41 +39,44 @@ body {
 
 .cadastro-input::placeholder {
     color: var(--cinza-claro);
-  }
+}
 
 @media screen and (min-width: 768px) {
-    
+
     body {
-        font-family: var(--fonte-familia-padrao);
         background: url("../img/Patas.png") 100% 0px no-repeat, url("../img/Forma\ 1-tablet.png")no-repeat, url("../img/Forma\ 2-tablet.png")100% 199px no-repeat;
         background-color: var(--branco);
     }
-    .chamada-principal--texto{
+
+    .chamada-principal--texto {
         margin-left: 121px;
         margin-right: 121px;
         width: 518px;
     }
-    .cadastro{
+
+    .cadastro {
         margin-top: 40px;
     }
+
     .cadastro-input {
         margin-top: 7px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    
+
     body {
-        font-family: var(--fonte-familia-padrao);
         background: url("../img/Patas-Desktop.png") 100% 0px no-repeat, url("../img/Forma\ 1-tablet.png")no-repeat, url("../img/Forma\ 2-tablet.png")100% 199px no-repeat;
         background-color: var(--branco);
     }
-    .chamada-principal--texto{
+
+    .chamada-principal--texto {
         width: 552px;
         margin-left: auto;
         margin-right: auto;
     }
-    .cadastro{
+
+    .cadastro {
         margin-top: 50px;
     }
 }
