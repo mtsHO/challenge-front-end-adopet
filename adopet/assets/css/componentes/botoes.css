@@ -11,6 +11,11 @@
     margin-top: 24px;
 }
 
+.botao:hover{
+    background-color: var(--coral-hover);
+    cursor: pointer;
+}
+
 .botao-variacao {
     display: block;
     margin-left: auto;
@@ -24,6 +29,10 @@
     margin-top: 24px;
 }
 
+.botao-variacao:hover{
+    background-color: var(--coral-hover);
+    cursor: pointer;
+}
 
 @media screen and (min-width: 768px) {
     .botao-variacao {
